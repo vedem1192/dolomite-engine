@@ -1,3 +1,5 @@
+from __future__ import annotations
+
 from tqdm import tqdm
 
 from ..enums import ExperimentsTrackerName

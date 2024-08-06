@@ -1,3 +1,5 @@
+from __future__ import annotations
+
 from ...config import CommonConfig
 from ...modeling_utils import SDPA
 from .base import _BaseAttention_TP

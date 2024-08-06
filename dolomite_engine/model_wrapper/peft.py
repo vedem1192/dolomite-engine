@@ -1,3 +1,5 @@
+from __future__ import annotations
+
 from peft import LoraConfig, PromptTuningConfig, TaskType, get_peft_model
 
 from ..arguments import InferenceArgs, TrainingArgs, UnshardingArgs

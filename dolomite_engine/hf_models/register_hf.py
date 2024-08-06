@@ -1,3 +1,5 @@
+from __future__ import annotations
+
 from transformers import AutoConfig, AutoModel, AutoModelForCausalLM, AutoModelForSeq2SeqLM
 
 from .models import (

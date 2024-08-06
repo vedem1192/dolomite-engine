@@ -1,3 +1,5 @@
+from __future__ import annotations
+
 from transformers import PretrainedConfig
 
 from .enums import AttentionHeadType, InitMethod, PositionEmbeddingType

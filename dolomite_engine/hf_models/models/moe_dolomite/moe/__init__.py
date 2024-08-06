@@ -1,3 +1,5 @@
+from __future__ import annotations
+
 from ..config import MoEDolomiteConfig
 from .base import SparseMoE
 from .scatter import ScatterMoE

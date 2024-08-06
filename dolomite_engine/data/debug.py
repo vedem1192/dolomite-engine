@@ -1,3 +1,6 @@
+from __future__ import annotations
+
+
 from transformers import AutoTokenizer
 
 from ..enums import DatasetSplit, Mode
